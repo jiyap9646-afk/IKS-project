@@ -4,6 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mathematics & Astronomy</title>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trade & Data Keeping</title>
   <style>
     body {
       background: linear-gradient(to bottom, #fff8e7, #f6e2c5);
@@ -13,14 +19,30 @@
       padding: 0;
     }
     header {
-      background-color:  #4b2e05;
-      color: white;
+      background-color: #4b2e05;
+      color: #fff;
       padding: 20px;
       text-align: center;
       border-bottom: 5px solid #a67c52;
     }
+    .nav {
+      text-align: center;
+      margin: 20px 0;
+    }
+    .nav a {
+      margin: 0 12px;
+      padding: 8px 12px;
+      font-size: 14px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #4b2e05;
+      background: #fff3dc;
+      border: 2px solid #a67c52;
+      border-radius: 8px;
+      
+    }
     h1 { margin: 0; font-size: 2.5rem; letter-spacing: 1px; }
-    h2 { color:  #4b2e05; margin-top: 30px; }
+    h2 { color: #4b2e05; margin-top: 30px; }
     .container {
       max-width: 950px;
       margin: auto;
@@ -31,12 +53,12 @@
       margin: 25px auto;
       width: 500px;
       height: auto;
-      border: 3px solid  #4b2e05;
+      border: 3px solid #4b2e05;
       border-radius: 12px;
-    
+     
     }
     p { text-align: justify; font-size: 18px; line-height: 1.7; margin-bottom: 20px; }
-    ul { margin: 15px 40px; font-size: 17px; line-height: 1.6; }
+     ul { margin: 15px 40px; font-size: 17px; line-height: 1.6; }
     .highlight {
       font-weight: bold;
       color: #4b2e05;
@@ -44,48 +66,30 @@
       padding: 2px 6px;
       border-radius: 3px;
     }
+    
    
-    .timeline {
+  .timeline {
       max-width: 800px;
       margin: 40px auto;
       padding: 20px;
       border-left: 4px solid #a67c52;
       background: #fff8e7;
       border-radius: 10px;
-      
+     
     }
-    .timeline h2 {
-      margin-top: 0;
-      text-align: center;
-    }
-    .timeline-event {
-      margin: 20px 0;
-      padding-left: 15px;
-      position: relative;
-    }
-    .timeline-event::before {
-      content: "●";
-      color:  #4b2e05;
-      font-size: 20px;
-      position: absolute;
-      left: -25px;
-      top: 0;
-    }
- 
+    .timeline h2 { text-align: center; margin-top: 0; }
+    
+    
     .facts-box {
-      max-width: 700px;
-      margin: 40px auto;
-      background: #fff3e6;
-      border: 2px dashed #a67c52;
-      border-radius: 12px;
-      padding: 20px;
-      
-    }
-    .facts-box h2 {
-      text-align: center;
-      margin-top: 0;
-      color: #4b2e05;
-    }
+  max-width: 700px;
+  margin: 40px auto;   
+  background: #fff3e6;
+  border: 2px dashed #a67c52;
+  border-radius: 12px;
+  padding: 20px;
+  
+}
+    .facts-box h2 { text-align: center; margin-top: 0; color: #4b2e05; }
     .facts-box ul {
       list-style-type: "✨ ";
       margin: 15px 30px;
@@ -99,10 +103,9 @@
     a {
       color: white;
       text-decoration: none;
-      background:  darkred;
+      background: darkred;
       padding: 10px 18px;
       border-radius: 8px;
-      transition: background 0.3s;
       font-size: 16px;
     }
    
@@ -112,6 +115,14 @@
   <header>
     <h1>Mathematics & Astronomy</h1>
   </header>
+  <div class="nav">
+    <a href="iks.html">Home</a>
+    <a href="math_astronomy.html">Mathematics & Astronomy</a>
+    <a href="ayurveda.html">Ayurveda & Medicine</a>
+    <a href="monuments.html">Monuments of Maharashtra</a>
+    <a href="education.html">Ancient Education</a>
+    <a href="trade.html">Trade & Data Keeping</a>
+  </div>
 
   <div class="container">
 
@@ -212,18 +223,20 @@
 
     <!-- Timeline -->
     <div class="timeline">
-      <h2>Timeline of Indian Mathematics & Astronomy</h2>
-      <div class="timeline-event"><b>476 CE:</b> Aryabhata writes <i>Aryabhatiya</i>, introducing zero & Earth’s rotation.</div>
-      <div class="timeline-event"><b>598 CE:</b> Brahmagupta formalizes rules for zero & negatives.</div>
-      <div class="timeline-event"><b>505–587 CE:</b> Varahamihira compiles <i>Panchasiddhantika</i>.</div>
-      <div class="timeline-event"><b>1114 CE:</b> Bhaskaracharya writes <i>Siddhanta Shiromani</i> & hints at calculus.</div>
-      <div class="timeline-event"><b>1200s:</b> Knowledge spreads via Arabic translations to Europe.</div>
-      <div class="timeline-event"><b>Modern Era:</b> Their ideas form the foundation of computer science, AI, and astronomy.</div>
+      <h2 style="text-align:center; margin-top:30px;">Timeline of Indian Mathematics & Astronomy</h2>
+    <ul>
+      <li><b>476 CE:</b> Aryabhata writes <i>Aryabhatiya</i>, introducing zero & Earth’s rotation.</li>
+      <li><b>598 CE:</b> Brahmagupta formalizes rules for zero & negatives.</li>
+      <li><b>505–587 CE:</b> Varahamihira compiles <i>Panchasiddhantika</i>.</li>
+      <li><b>1114 CE:</b> Bhaskaracharya writes <i>Siddhanta Shiromani</i> & hints at calculus.</li>
+      <li><b>1200s:</b> Knowledge spreads via Arabic translations to Europe.</li>
+      <li><b>Modern Era:</b> Their ideas form the foundation of computer science, AI, and astronomy.</li>
+    </ul>
     </div>
 
     <!-- Fun Facts -->
     <div class="facts-box">
-      <h2>💡 Fun Facts</h2>
+      <h2>💡 Did You Know?</h2>
       <ul>
         <li>Aryabhata calculated π centuries before Europe adopted the value.</li>
         <li>Brahmagupta’s zero became the basis of modern computing.</li>
@@ -235,22 +248,22 @@
     
     <!-- Data Science Connection -->
     <div class="facts-box">
-      <h2>📊 From Ancient Math to Data Science</h2>
-      <p>
-        Ancient Indian scholars were the world’s earliest <span class="highlight">data scientists</span>. 
-        They collected observations, found <b>patterns</b>, and built <b>formulas</b> to make predictions.
-      </p>
-      <ul>
-        <li>Aryabhata’s calculations = early <b>algorithms</b>.</li>
-        <li>Brahmagupta’s zero = foundation of <b>binary code</b>.</li>
-        <li>Bhaskaracharya’s methods = precursors to <b>calculus & machine learning</b>.</li>
-        <li>Varahamihira’s applied science = like today’s <b>data-driven decision making</b>.</li>
-      </ul>
-      <p>
-        Concepts like <b>zero, infinity, trigonometry, and calculus</b> 
-        still drive modern fields from AI to space exploration.
-      </p>
-    </div>
+  <h2>📊 From Ancient Math to Data Science</h2>
+  <p>
+    Ancient Indian scholars were the world’s earliest <span class="highlight">data scientists</span>. 
+    They collected observations, found <b>patterns</b>, and built <b>formulas</b> to make predictions.
+  </p>
+  <ul>
+    <li>📐 Aryabhata’s calculations = early <b>algorithms</b>.</li>
+    <li>➕ Brahmagupta’s zero = foundation of <b>binary code</b>.</li>
+    <li>📏 Bhaskaracharya’s methods = precursors to <b>calculus & machine learning</b>.</li>
+    <li>🔭 Varahamihira’s applied science = like today’s <b>data-driven decision making</b>.</li>
+  </ul>
+  <p>
+    Concepts like <b>zero, infinity, trigonometry, and calculus</b> 
+    still drive modern fields from AI to space exploration.
+  </p>
+</div>
 
     <footer>
       <a href="iks.html">← Back to Home</a>

@@ -19,6 +19,22 @@
       text-align: center;
       border-bottom: 5px solid #a67c52;
     }
+    .nav {
+      text-align: center;
+      margin: 20px 0;
+    }
+    .nav a {
+      margin: 0 12px;
+      padding: 8px 12px;
+      font-size: 14px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #4b2e05;
+      background: #fff3dc;
+      border: 2px solid #a67c52;
+      border-radius: 8px;
+      
+    }
     h1 { margin: 0; font-size: 2.5rem; letter-spacing: 1px; }
     h2 { color: #4b2e05; margin-top: 30px; }
     .container {
@@ -36,7 +52,7 @@
      
     }
     p { text-align: justify; font-size: 18px; line-height: 1.7; margin-bottom: 20px; }
-    ul { margin: 15px 40px; font-size: 17px; line-height: 1.6; }
+     ul { margin: 15px 40px; font-size: 17px; line-height: 1.6; }
     .highlight {
       font-weight: bold;
       color: #4b2e05;
@@ -45,40 +61,18 @@
       border-radius: 3px;
     }
     
-    .timeline {
-  max-width: 700px;
-  margin: 40px auto;   
-  padding: 20px;
-  border-left: 4px solid #a67c52;
-  background: #fff8e7;
-  border-radius: 10px;
-  
-}
-
-.facts-box {
-  max-width: 700px;
-  margin: 40px auto; 
-  background: #fff3e6;
-  border: 2px dashed #a67c52;
-  border-radius: 12px;
-  padding: 20px;
-  
-}
-
+   
+  .timeline {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      border-left: 4px solid #a67c52;
+      background: #fff8e7;
+      border-radius: 10px;
+     
+    }
     .timeline h2 { text-align: center; margin-top: 0; }
-    .timeline-event {
-      margin: 20px 0;
-      padding-left: 15px;
-      position: relative;
-    }
-    .timeline-event::before {
-      content: "●";
-      color: #4b2e05;
-      font-size: 20px;
-      position: absolute;
-      left: -25px;
-      top: 0;
-    }
+    
     
     .facts-box {
   max-width: 700px;
@@ -106,7 +100,6 @@
       background: darkred;
       padding: 10px 18px;
       border-radius: 8px;
-      transition: background 0.3s;
       font-size: 16px;
     }
    
@@ -116,6 +109,15 @@
   <header>
     <h1>Trade & Data Keeping</h1>
   </header>
+
+  <div class="nav">
+    <a href="iks.html">Home</a>
+    <a href="math_astronomy.html">Mathematics & Astronomy</a>
+    <a href="ayurveda.html">Ayurveda & Medicine</a>
+    <a href="monuments.html">Monuments of Maharashtra</a>
+    <a href="education.html">Ancient Education</a>
+    <a href="trade.html">Trade & Data Keeping</a>
+  </div>
 
   <div class="container">
     <img src="https://historystreet.club/wp-content/uploads/Firefly-show-the-ancient-roman-empire-trade-goods-with-india-as-an-oil-painting-16888-scaled.jpg" alt="Ancient Indian Trade">
@@ -179,19 +181,22 @@
 
     <!-- Timeline Section -->
     <div class="timeline">
-      <h2>Timeline of Trade & Records</h2>
-      <div class="timeline-event"><b>2400 BCE:</b> Lothal emerges as one of the first dockyards.</div>
-      <div class="timeline-event"><b>600 BCE:</b> Punch-marked coins used in India for trade.</div>
-      <div class="timeline-event"><b>200 BCE – 200 CE:</b> Indo-Roman trade flourishes; Roman gold coins flood India.</div>
-      <div class="timeline-event"><b>320–550 CE:</b> Gupta dynasty issues iconic gold coins.</div>
-      <div class="timeline-event"><b>800–1200 CE:</b> Merchant guilds dominate trade and keep ledgers.</div>
-      <div class="timeline-event"><b>1500s:</b> European traders arrive, seeking spices and textiles.</div>
-      <div class="timeline-event"><b>Modern Era:</b> Digital records, blockchain, and data analytics drive trade.</div>
+    <ul>
+      <h2 style="text-align:center; margin-top:30px;">Timeline of Trades & Records</h2>
+      <li><b>2400 BCE:</b> Lothal emerges as one of the first dockyards.</li>
+      <li><b>600 BCE:</b> Punch-marked coins used in India for trade.</li>
+      <li><b>200 BCE – 200 CE:</b> Indo-Roman trade flourishes; Roman gold coins flood India.</li>
+      <li><b>320–550 CE:</b> Gupta dynasty issues iconic gold coins.</li>
+      <li><b>800–1200 CE:</b> Merchant guilds dominate trade and keep ledgers.</li>
+      <li><b>1500s:</b> European traders arrive, seeking spices and textiles.</li>
+      <li><b>Modern Era:</b> Digital records, blockchain, and data analytics drive trade.</li>
+    </ul>
     </div>
+    
 
     <!-- Fun Facts Section -->
     <div class="facts-box">
-      <h2>💡 Fun Facts</h2>
+      <h2>💡 Did You Know?</h2>
       <ul>
         <li>Roman ships carried so many Indian goods that gold coins flooded into India.</li>
         <li>Spices from Kerala were so valuable that <b>colonial powers fought wars</b> to control them.</li>
@@ -200,20 +205,27 @@
       </ul>
     </div>
 <div class="facts-box">
-    <h2>From Trade Records to Data Science</h2>
-    <p>
-      Ancient traders carefully noted quantities, routes, profits, and taxes — 
-      just like today’s <span class="highlight">data scientists</span> track sales, markets, 
-      and predictions. Where guilds once maintained written ledgers, 
-      we now use <b>databases, spreadsheets, and AI models</b>.
-    </p>
-    <p>
-      Modern systems like <b>digital banking, blockchain, and supply chain analytics</b> 
-      are the natural evolution of what started thousands of years ago. 
-      The same principle remains: <b>record, analyze, and predict</b>. 
-      Ancient coins and trade logs are the ancestors of the data-driven world we live in today.
-    </p>
-    </div>
+  <h2>💰 From Trade Records to Data Science</h2>
+  <p>
+    Ancient traders carefully noted quantities, routes, profits, and taxes — 
+    just like today’s <span class="highlight">data scientists</span> track sales, markets, 
+    and predictions. Where guilds once maintained written ledgers, 
+    we now use <b>databases, spreadsheets, and AI models</b>.
+  </p>
+  <p>
+    Modern systems like <b>digital banking, blockchain, and supply chain analytics</b> 
+    are the natural evolution of what started thousands of years ago. 
+    The same principle remains: <b>record, analyze, and predict</b>. 
+    Ancient coins and trade logs are the ancestors of the data-driven world we live in today.
+  </p>
+  <ul>
+    <li>🛳️ Trade routes connected India with Rome, Persia, and China.</li>
+    <li>💵 Coins acted as <i>data carriers</i>, showing rulers, economy, and commerce.</li>
+    <li>📜 Guilds maintained detailed records — early business intelligence.</li>
+    <li>💹 Today’s analytics is the modern version of these ancient practices.</li>
+  </ul>
+</div>
+
 
     <footer>
       <a href="iks.html">← Back to Home</a>

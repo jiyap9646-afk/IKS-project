@@ -19,6 +19,22 @@
       text-align: center;
       border-bottom: 5px solid #a67c52;
     }
+    .nav {
+      text-align: center;
+      margin: 20px 0;
+    }
+    .nav a {
+      margin: 0 12px;
+      padding: 8px 12px;
+      font-size: 14px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #4b2e05;
+      background: #fff3dc;
+      border: 2px solid #a67c52;
+      border-radius: 8px;
+      
+    }
     h1 { margin: 0; font-size: 2.5rem; letter-spacing: 1px; }
     h2 { color: #4b2e05; margin-top: 30px; }
     .container {
@@ -28,21 +44,15 @@
     }
     img {
       display: block;
-      margin: 25px auto 5px auto;
-      max-width: 500px;
+      margin: 25px auto;
+      width: 500px;
       height: auto;
-      border: 3px solid #a67c52;
+      border: 3px solid #4b2e05;
       border-radius: 12px;
-    }
-    .caption {
-      text-align: center;
-      font-size: 16px;
-      font-style: italic;
-      margin-bottom: 20px;
-      color: #4b2e05;
+     
     }
     p { text-align: justify; font-size: 18px; line-height: 1.7; margin-bottom: 20px; }
-    ul { margin: 15px 40px; font-size: 17px; line-height: 1.6; }
+     ul { margin: 15px 40px; font-size: 17px; line-height: 1.6; }
     .highlight {
       font-weight: bold;
       color: #4b2e05;
@@ -50,36 +60,29 @@
       padding: 2px 6px;
       border-radius: 3px;
     }
-    .timeline {
+    
+   
+  .timeline {
       max-width: 800px;
       margin: 40px auto;
       padding: 20px;
       border-left: 4px solid #a67c52;
       background: #fff8e7;
       border-radius: 10px;
+     
     }
     .timeline h2 { text-align: center; margin-top: 0; }
-    .timeline-event {
-      margin: 20px 0;
-      padding-left: 15px;
-      position: relative;
-    }
-    .timeline-event::before {
-      content: "●";
-      color: #4b2e05;
-      font-size: 20px;
-      position: absolute;
-      left: -25px;
-      top: 0;
-    }
+    
+    
     .facts-box {
-      max-width: 800px;
-      background: #fff3e6;
-      border: 2px dashed #a67c52;
-      border-radius: 12px;
-      padding: 20px;
-      margin: 40px auto;
-    }
+  max-width: 700px;
+  margin: 40px auto;   
+  background: #fff3e6;
+  border: 2px dashed #a67c52;
+  border-radius: 12px;
+  padding: 20px;
+  
+}
     .facts-box h2 { text-align: center; margin-top: 0; color: #4b2e05; }
     .facts-box ul {
       list-style-type: "✨ ";
@@ -97,15 +100,24 @@
       background: darkred;
       padding: 10px 18px;
       border-radius: 8px;
-      transition: background 0.3s;
       font-size: 16px;
     }
+   
   </style>
 </head>
 <body>
   <header>
     <h1>Ancient Education in India</h1>
   </header>
+
+  <div class="nav">
+    <a href="iks.html">Home</a>
+    <a href="math_astronomy.html">Mathematics & Astronomy</a>
+    <a href="ayurveda.html">Ayurveda & Medicine</a>
+    <a href="monuments.html">Monuments of Maharashtra</a>
+    <a href="education.html">Ancient Education</a>
+    <a href="trade.html">Trade & Data Keeping</a>
+  </div>
 
 
   <div class="container">
@@ -245,6 +257,22 @@
   carried into Europe, influencing the Renaissance.  
   In fact, the concept of <b>zero and decimal system</b> reached the world through India’s ancient education.
 </p>
+
+<!-- Timeline -->
+<div class="timeline">
+  <h2 style="text-align:center; margin-top:30px;">Timeline of Indian Education & Learning Systems</h2>
+  <ul>
+    <li><b>500 BCE:</b> Gurukuls emerge, teaching Vedas, philosophy, and arts orally.</li>
+    <li><b>300 BCE:</b> Nalanda University established, attracting students from across Asia.</li>
+    <li><b>500–1200 CE:</b> Education flourishes in monasteries, temples, and math/guru schools.</li>
+    <li><b>1193 CE:</b> Decline of ancient universities due to invasions; knowledge preservation continues in smaller centers.</li>
+    <li><b>1757 CE:</b> British colonial period introduces formal schools & universities.</li>
+    <li><b>1857 CE:</b> University of Calcutta, Bombay, and Madras founded, modern higher education begins.</li>
+    <li><b>1947 CE:</b> India gains independence; focus on literacy, schools, and technical institutes.</li>
+    <li><b>Modern Era:</b> Digital classrooms, online learning, and AI-assisted education transform the system.</li>
+  </ul>
+</div>
+
 <div class="facts-box">
       <h2>💡 Did You Know?</h2>
       <ul>
@@ -276,6 +304,7 @@
   <li>💻 Modern Data Science in education now uses analytics to personalize learning in a similar way.</li>
 </ul>
 </div>
+
   <footer>
       <a href="iks.html">← Back to Home</a>
     </footer>
